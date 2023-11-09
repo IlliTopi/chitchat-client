@@ -1,0 +1,69 @@
+.page-login {
+    
+    background: linear-gradient(90deg, hsla(284, 100%, 55%, 1) 0%, hsla(300, 100%, 55%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(284, 100%, 55%, 1) 0%, hsla(300, 100%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(284, 100%, 55%, 1) 0%, hsla(300, 100%, 55%, 1) 100%);
+    background-color: #c018ff;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-island {
+    width: 600px;
+    min-height: auto;
+
+    padding: 1rem;
+    background-color: white;
+    border-radius: 25px;
+    filter: drop-shadow(0 0 2px #4e4d4d);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-input-wrapper > label {
+    font-size: 1.5rem;
+    font-weight:bold;
+    margin-bottom: 0.2rem;
+}
+.login-input-wrapper > input {
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    border-radius: 10px;
+    border-color: rgb(235, 235, 235);
+    border-style: solid;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.login-button,.register-button {
+    padding: 0.5rem 2rem;
+    font-size: 2.5rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.login-button {
+    background-color: blue;
+}
+.register-button {
+    background-color: rgb(166, 255, 0);
+}
+.login-button:active {
+    background-color: rgb(127, 127, 235);
+}
+.register-button:active {
+    background-color: rgb(210, 245, 146);
+}
+
+.login-input-wrapper {
+    margin-bottom: 1.3rem;
+    width: 100%;
+}

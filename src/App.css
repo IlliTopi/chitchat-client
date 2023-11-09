@@ -1,0 +1,64 @@
+.interface {
+  background-color: rgb(192, 24, 255);
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: 12% 88%;
+}
+
+.chat-layout{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(18, 88, 216, 0.418);
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chat-area {
+  width: 100%;
+  min-height: 0;
+
+  flex: 1 1 0;
+  min-width: 0;
+  overflow-y:auto;
+}
+.chat-input {
+  width: 100%;
+  
+  background-color: rgba(255, 0, 0, 0.247);
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.chat-actions-wrapper {
+  flex-wrap: nowrap;
+  display: grid;
+  /* justify-content: center;
+  align-items: center; */
+  grid-template-columns: 95% 5%;
+  width: calc(100% - 2rem);
+  margin: 1rem;
+}
+.chat-actions-wrapper > textarea{
+  width: calc(100%-2rem);
+  resize: none;
+  min-height: 2.5rem;
+  /* height: 4.5rem; */
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #ffffff3d;
+  border: none;
+}
+.chat-send {
+ /*  min-height: 2.5rem;
+  padding: 1rem; */
+  width: 5rem;
+}
+
+.chat-message {
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0.534);
+}
